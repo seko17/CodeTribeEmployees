@@ -1,0 +1,31 @@
+img {
+  object-fit: cover;
+}
+.fas {
+  cursor: pointer;
+}
+
+body {
+    padding-top: 120px;
+    background-image: url("/assets/a3.jpg"); 
+  
+  }
+  .navbar-trans {
+    background: transparent; }
+  
+  a.navbar-brand, a.logo {
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #fff !important;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 0; }
+  
+  a.logo:hover, a.logo:active, a.logo:focus {
+    text-decoration: none; }
+  
+  li.nav-item .btn {
+    margin-top: .2rem;
+    margin-left: .4rem; }
+  li.nav-item .btn-white {
+    color: #46484a; }
+  

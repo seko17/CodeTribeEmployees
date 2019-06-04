@@ -1,0 +1,80 @@
+
+	<link href="https://fonts.googleapis.com/css?family=Karla:400,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700" rel="stylesheet">
+	
+
+
+
+	<nav id="colorlib-main-nav" role="navigation">
+
+	</nav>
+	
+	<div id="colorlib-page">
+		<header>
+		
+		</header>
+		<div id="colorlib-about">
+			<div class="container">
+				<div class="row text-center">
+					<h2 class="bold">About</h2>
+				</div>
+				<div class="row row-padded-bottom">
+					<div class="col-md-5 animate-box">
+						<img class="img-responsive about-img" [src]="employee.image" alt="html5 bootstrap template by colorlib.com"  height="450px" width="450px">
+					</div>
+					<div class="col-md-6 col-md-push-1 animate-box">
+						<div class="about-desc">
+							<h2><span></span><span>{{employee.name}}</span></h2>
+							<div class="desc">
+								<div class="rotate">
+									<h2 class="heading">About</h2>
+								</div>
+                <table class="table table-borderless">
+            
+                    <tbody>
+                      <tr>
+                        <th scope="row">name:</th>
+                        <td>{{employee.name}}</td>
+                      
+                      </tr>
+                      <tr>
+                        <th scope="row">Surname:</th>
+                        <td>{{employee.surname}}</td>
+                        
+                      </tr>
+                      <tr>
+                        <th scope="row">Gender:</th>
+                        <td>{{employee.gender}}</td>
+                      </tr>
+                      <tr>
+                          <th scope="row">Date Of Birth:</th>
+                          <td>{{employee.DOB}}</td>
+                        </tr>
+                    </tbody>
+                  </table>
+								<p class="colorlib-social-icons">
+									<a href="#"><i class="icon-facebook4"></i></a>
+									<a href="#"><i class="icon-twitter3"></i></a>
+									<a href="#"><i class="icon-googleplus"></i></a>
+									<a href="#"><i class="icon-dribbble2"></i></a>
+								</p>
+								<p><a routerLink="/read-employee" class="btn btn-primary btn-outline">Go back home</a></p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-4 animate-box">
+						
+					</div>
+					<div class="col-md-4 animate-box">
+						<p>{{employee.bio}}</p>
+					</div>
+					<div class="col-md-4 animate-box">
+				
+					</div>
+				</div>
+			</div>
+		</div>
+		
+
